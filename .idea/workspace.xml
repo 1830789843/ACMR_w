@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e4c1b6bc-2492-434c-825a-85c097e11b12" name="Default" comment="add a line for test git" />
+    <list default="true" id="e4c1b6bc-2492-434c-825a-85c097e11b12" name="Default" comment="add a line for test git">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/adv_crossmodal_simple_nuswide.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/adv_crossmodal_simple_nuswide.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,11 +29,29 @@
       <file leaf-file-name="adv_crossmodal_simple_nuswide.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/models/adv_crossmodal_simple_nuswide.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="215" column="45" selection-start-line="215" selection-start-column="45" selection-end-line="215" selection-end-column="45" />
+            <state relative-caret-position="228">
+              <caret line="232" column="30" selection-start-line="232" selection-start-column="30" selection-end-line="232" selection-end-column="30" />
               <folding>
                 <element signature="e#0#37#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adv_crossmodal_simple_wiki.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/adv_crossmodal_simple_wiki.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2071">
+              <caret line="130" column="57" selection-start-line="130" selection-start-column="57" selection-end-line="130" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="adv_crossmodal_triplet_wiki.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/adv_crossmodal_triplet_wiki.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="19">
+              <caret line="92" column="63" lean-forward="true" selection-start-line="92" selection-start-column="63" selection-end-line="92" selection-end-column="63" />
             </state>
           </provider>
         </entry>
@@ -105,8 +126,8 @@
         <option value="$PROJECT_DIR$/train_adv_crossmodal_simple_nuswide.py" />
         <option value="$PROJECT_DIR$/models/adv_crossmodal_simple_wiki.py" />
         <option value="$PROJECT_DIR$/models/test——NUS.py" />
-        <option value="$PROJECT_DIR$/models/adv_crossmodal_simple_nuswide.py" />
         <option value="$PROJECT_DIR$/data/result.txt" />
+        <option value="$PROJECT_DIR$/models/adv_crossmodal_simple_nuswide.py" />
       </list>
     </option>
   </component>
@@ -354,7 +375,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5005208" side_tool="true" weight="0.32978722" />
@@ -739,24 +761,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/models/adv_crossmodal_triplet_wiki.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3971">
-          <caret line="92" column="63" lean-forward="true" selection-start-line="92" selection-start-column="63" selection-end-line="92" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/txt.txt">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/adv_crossmodal_simple_wiki.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="48" column="25" lean-forward="true" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
-          <caret line="47" column="10" lean-forward="true" selection-start-line="47" selection-start-column="10" selection-end-line="47" selection-end-column="10" />
-          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/train_adv_crossmodal_simple_nuswide.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -775,10 +781,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/models/adv_crossmodal_simple_wiki.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2071">
+          <caret line="130" column="57" selection-start-line="130" selection-start-column="57" selection-end-line="130" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/adv_crossmodal_triplet_wiki.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="92" column="63" lean-forward="true" selection-start-line="92" selection-start-column="63" selection-end-line="92" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/models/adv_crossmodal_simple_nuswide.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="215" column="45" selection-start-line="215" selection-start-column="45" selection-end-line="215" selection-end-column="45" />
+        <state relative-caret-position="228">
+          <caret line="232" column="30" selection-start-line="232" selection-start-column="30" selection-end-line="232" selection-end-column="30" />
           <folding>
             <element signature="e#0#37#0" expanded="true" />
           </folding>

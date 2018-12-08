@@ -229,11 +229,11 @@ class AdvCrossModalSimple(BaseModel):
                     epoch, idx, self.data_iter.num_train_batch, time.time() - start_time, emb_loss_val, domain_loss_val, label_loss_val, similar_loss_val, dissimilar_loss_val
                 ))
                 # 写入一份即可。用完注释掉."a"表示追加。"w"表示覆盖
-                with open("./data/result.txt", 'a') as file:
-                    file.write('Epoch: [%2d][%4d/%4d] time: %4.4f, emb_loss: %.8f, domain_loss: %.8f, label_loss: '
-                               '%.8f, similar_loss: %.8f, suaimilar_loss: %.8f\n' %(
-                    epoch, idx, self.data_iter.num_train_batch, time.time() - start_time, emb_loss_val, domain_loss_val, label_loss_val, similar_loss_val, dissimilar_loss_val
-                ))
+                # with open("./data/result.txt", 'a') as file:
+                #     file.write('Epoch: [%2d][%4d/%4d] time: %4.4f, emb_loss: %.8f, domain_loss: %.8f, label_loss: '
+                #                '%.8f, similar_loss: %.8f, suaimilar_loss: %.8f\n' %(
+                #     epoch, idx, self.data_iter.num_train_batch, time.time() - start_time, emb_loss_val, domain_loss_val, label_loss_val, similar_loss_val, dissimilar_loss_val
+                # ))
 
     def eval_random_rank(self):
         start = time.time()
